@@ -20,7 +20,7 @@ rem
     echo from flask_socketio import SocketIO
     echo.
     echo app = Flask(__name__)
-    echo app.secret_key = "%AES_KEY%"
+    echo app.secret_key = '%AES_KEY%'
     echo socketio = SocketIO(app)
 ) > server.py
 

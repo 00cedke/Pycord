@@ -11,7 +11,7 @@ class ChatApp(tk.Tk):
         self.geometry("600x500")
         
         self.sio = socketio.Client()
-        self.sio.connect('http://localhost:5000')
+        self.sio.connect('http://127.0.0.1:5000')
 
         self.username_entry = tk.Entry(self)
         self.username_entry.pack(pady=10)
